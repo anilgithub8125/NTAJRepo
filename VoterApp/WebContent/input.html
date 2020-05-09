@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Voting-Eligibility-page</title>
+</head>
+<body>
+
+<form action="voterurl">
+Person_Name::<input type="text" name="pname"/><span id="nameErr"></span><br>
+person_Age::<input type="password" name="page"/><span id="ageErr"></span><br>
+<!-- hidden box -->
+<input type="hidden" value="no" name="vflag"/><br>
+<input type="submit" value="Check Eligibility" onsubmit="validate(this)"/>
+</form>
+
+</body>
+</html>
